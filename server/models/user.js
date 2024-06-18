@@ -4,9 +4,9 @@ const jwt = require('jsonwebtoken');
 
 const connectionConfig = {
     host: "localhost",
-    user: "root",
-    database: "web_portfolio_db",
-    password: "4bQ095713Su3dkNO$"
+    user: "cs14448_psbd",
+    database: "cs14448_psbd",
+    password: "m9tKhBqb"
 }
 
 class User {
