@@ -3,10 +3,11 @@ const bcrypt = require("bcryptjs");
 const jwt = require('jsonwebtoken');
 
 const connectionConfig = {
-    host: "localhost",
-    user: "cs14448_psbd",
-    database: "cs14448_psbd",
-    password: "m9tKhBqb"
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASSWORD,
+    port: process.env.DB_PORT
 }
 
 class User {
